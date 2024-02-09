@@ -54,10 +54,10 @@ class TargetClickhouse(SQLTarget):
         ),
         th.Property(
             "port",
-            th.IntegerType,
+            th.StringType,
             required=False,
             description="Database connection port",
-            default=8123,
+            default="8123",
         ),
         th.Property(
             "database",
