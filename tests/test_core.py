@@ -16,7 +16,7 @@ TEST_CONFIG: dict[str, t.Any] = {
 TEST_CONFIG_SPREAD: dict[str, t.Any] = {
     "driver": "http",
     "host": "localhost",
-    "port": 18123,
+    "port": "18123",
     "username": "default",
     "password": "",
     "database": "default",
@@ -28,7 +28,7 @@ TEST_CONFIG_SPREAD: dict[str, t.Any] = {
 TEST_CONFIG_NATIVE: dict[str, t.Any] = {
     "driver": "native",
     "host": "localhost",
-    "port": 19000,
+    "port": "19000",
     "username": "default",
     "password": "",
     "database": "default",
